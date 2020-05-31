@@ -1,0 +1,17 @@
+.info-head{
+    border-radius: 2%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 1%, rgba(253,100,29,1) 68%, rgba(252,176,69,1) 100%);
+    /* filter: blur(5px); */
+}
+.info-ul li{
+    list-style: none;
+}
+.info-ul li a{
+    margin-right: 2%;
+    color: black;
+}
+.course-info{
+    box-shadow: 2px 2px 5px 0px;
+    border-radius: 3%;
+}
