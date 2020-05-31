@@ -1,0 +1,26 @@
+.info-head{
+    border-radius: 2%;
+}
+.info-ul li{
+    list-style: none;
+}
+.course-info{
+    box-shadow: 3px 3px 4px 1px;
+    border-radius: 3%;
+}
+.explain-ul li{
+    display: inline-block;
+    margin-left: 10%;
+    padding: 4%;
+}
+.course-list{
+    box-shadow: 2px 2px 5px 0px;
+
+}
+.comment{
+    box-shadow: 2px 2px 5px 0px;
+}
+.tag-content{
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 5px 0px;
+}
