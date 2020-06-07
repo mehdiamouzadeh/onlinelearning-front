@@ -6,12 +6,17 @@
 }
 .info-ul li{
     list-style: none;
+    display: inline;
 }
 .info-ul li a{
     margin-right: 2%;
     color: black;
+    
 }
 .course-info{
     box-shadow: 2px 2px 5px 0px;
     border-radius: 3%;
+}
+.comment{
+    box-shadow: 2px 2px 5px 0px;
 }
