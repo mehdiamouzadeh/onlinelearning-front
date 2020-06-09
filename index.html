@@ -69,9 +69,82 @@
             <div class="col-12 text-right">
               <h1 class="font-weight-light animated bounceInLeft">..آموزش آنلاین برنامه نویسی , طراحی سایت و</h1>
               <p class="lead animated bounceInLeft delay-1s">A great starter layout for a landing page</p>
-              <button class="btn btn-success animated bounceInUp">ورود</button>
-              <button class="btn btn-outline-success animated bounceInUp">ثبت نام</button>
-              
+              <button class="btn btn-success animated bounceInUp" type="button"data-toggle="modal" data-target="#exampleModalCenter">ورود</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="direction: rtl;">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">فرم ورود به سایت</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="validationDefaultUsername">نام کاربری</label>
+                          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="emailHelp" placeholder="Enter username">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-warning">ورود</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-outline-success animated bounceInUp" type="button" data-toggle="modal" data-target="#signup">ثبت نام</button>
+
+              <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="direction: rtl;">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">فرم ثبت نام</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="validationDefaultUsername">نام </label>
+                          <input type="text" class="form-control" id="validationDefaultUsername"  placeholder="Enter firstname">
+                        </div>
+                        <div class="form-group">
+                          <label for="validationDefaultUsername">نام خانوادگی</label>
+                          <input type="text" class="form-control" id="validationDefaultUsername"  placeholder="Enter lastname">
+                        </div>
+                        <div class="form-group">
+                          <label for="validationDefaultUsername">ایمیل</label>
+                          <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="validationDefaultUsername">نام کاربری</label>
+                          <input type="text" class="form-control" id="validationDefaultUsername"  placeholder="Enter username">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success">ثبت نام</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -530,6 +603,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
+    <script>
+      $('#exampleModalCenter').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    </script>
     <script>
               new WOW().init();
     </script>
