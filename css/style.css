@@ -252,3 +252,56 @@ hr{
 .inner:hover img{
     transform: scale(1.5);
 }
+@font-face {
+    font-family: vazir-medium;
+    src: url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Medium.eot');
+    src: url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Medium.woff2') format('woff2'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Medium.woff') format('woff'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: vazir-thin;
+    src: url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Thin.eot');
+    src: url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Thin.woff2') format('woff2'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Thin.woff') format('woff'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Bold.eot');
+    src: url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Bold.woff2') format('woff2'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Bold.woff') format('woff'),
+         url('E:/workspace/taamol-project/font/vazir-font-v19.1.0/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: Vazir Code;
+  src: url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code.eot');
+  src: url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+       url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code.woff') format('woff'),
+       url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir Code Hack;
+  src: url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code-Hack.eot');
+  src: url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+       url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code-Hack.woff') format('woff'),
+       url('E:/workspace/taamol-project/font/vazir-code-font-v1.1.2/Vazir-Code-Hack.ttf') format('truetype');
+  font-weight: normal;
+}
+*{
+    font-family: 'vazir-medium';
+}
